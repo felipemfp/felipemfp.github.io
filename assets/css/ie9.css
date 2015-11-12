@@ -1,5 +1,5 @@
 /*
-	Identity by HTML5 UP
+	Solid State by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -7,35 +7,83 @@
 /* Basic */
 
 	body {
+		background-color: #2e3141;
 		background-image: url("../../images/bg.jpg");
-		background-repeat: no-repeat;
 		background-size: cover;
-		background-position: bottom center;
 		background-attachment: fixed;
+		background-position: center;
 	}
 
-		body:after {
-			display: none;
+		body:before {
+			background: rgba(46, 49, 65, 0.8);
+			content: '';
+			display: block;
+			height: 100%;
+			left: 0;
+			position: fixed;
+			top: 0;
+			width: 100%;
 		}
 
-/* List */
+		body > * {
+			position: relative;
+			z-index: 1;
+		}
 
-	ul.icons li a:before {
-		color: #c8cccf;
+/* Features */
+
+	.features article {
+		display: inline-block;
+		width: 45%;
 	}
 
-	ul.icons li a:hover:before {
-		color: #ff7496;
+/* Menu */
+
+	#menu .inner {
+		margin: 4em auto;
 	}
 
 /* Wrapper */
 
-	#wrapper {
-		text-align: center;
+	#wrapper > header {
+		background: none !important;
 	}
 
-/* Main */
+	.wrapper.spotlight .inner {
+		text-align: left !important;
+	}
 
-	#main {
+	.wrapper.spotlight .image {
 		display: inline-block;
+		margin: 0 3em 2em 0 !important;
+		vertical-align: middle;
+		width: 24%;
 	}
+
+	.wrapper.spotlight .content {
+		display: inline-block;
+		vertical-align: middle;
+		width: 70%;
+	}
+
+/* Banner */
+
+	#banner {
+		background: none !important;
+	}
+
+/* Footer */
+
+	#footer {
+		background: none !important;
+	}
+
+		#footer .inner form {
+			display: inline-block;
+			width: 45%;
+		}
+
+		#footer .inner .contact {
+			display: inline-block;
+			width: 45%;
+		}
