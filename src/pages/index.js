@@ -1,0 +1,87 @@
+import React from 'react'
+import Link from 'gatsby-link'
+
+import './index.css'
+import Heart from 'react-icons/lib/fa/heart';
+
+
+const ProjectItem = ({name, url, description}) => (
+  <li>
+    <a href={url}>{name}</a>{' - '}{description}
+  </li>
+)
+
+const IndexPage = () => (
+  <div>
+    <section>
+      <h1>
+        Hi, I'm Felipe Pontes
+      </h1>
+      <p>
+        A passionate <strong>software developer</strong> who loves to learn and build
+        solutions for real problems.
+      </p>
+      <p>
+        You can reach me at <a href="https://twiter.com/felipe">Twitter</a>, <a href="https://github.com/felipemfp">Github</a>, <a href="https://linkedin.com/in/felipemfp">LinkedIn</a> or <a href="mailto:felipemfpontes@gmail.com">Email</a>.
+      </p>      
+    </section>
+
+    <section>
+      <h3>Projects</h3>
+      <ul>
+        <ProjectItem name="GeoGuide" url="https://geoguideproject.github.io" description="a web-based environment for analysis, cleaning and visualization of large amounts of spatio-temporal data" />
+        <ProjectItem name="SIAC" url="https://projeto-siac.github.io" description="a project for allow students take self assessment test from anywhere." />
+        <ProjectItem name="Dicio" url="https://felipemfp.github.com/dicio" description="an unofficial API to get data from Dicio.com.br." />
+        <ProjectItem name="passando-na-tv" url="https://github.com/felipemfp/passando-na-tv" description="a CLI for Brazilian TV broadcasters." />
+        <ProjectItem name="IFRN Messenger" url="https://github.com/felipemfp/ifrn-messenger" description="a messaging app to connect students at IFRN." />
+      </ul>
+    </section>
+
+    <section>
+      <h4>More projects</h4>
+      <ul>
+        <ProjectItem name="OBI" url="https://github.com/felipemfp/obi" description="a collection of resolutions of Brazilian Olympiad in Informatics problems." />
+        <ProjectItem name="Liturgia" url="https://github.com/felipemfp/liturgia" description="a scraper script to track the Daily Readings." />
+        <ProjectItem name="Racing" url="https://github.com/felipemfp/racing" description="a racing game with many modes and difficulties." />
+        <ProjectItem name="Catherine" url="https://felipemfp.github.com/catherine" description="a RESTful API for developers and students create applications that integrate an API." />
+        <ProjectItem name="What's the Chelsea's next match?" url="https://felipemfp.github.io/chelsea-next-match/" description="a React web app to know the next match of Chelsea FC." />
+        <ProjectItem name="Batalha Naval" url="https://felipemfp.github.com/batalha-naval" description="a JavaScript version of Battleship game." />
+        <ProjectItem name="Combate ao Aedes" url="https://felipemfp.github.io/projeto-aedes/" description="an app to remember to perform tasks to prevent the mosquito Aedes aegypti." />
+        <ProjectItem name="Me Nota" url="https://github.com/felipemfp/me-nota" description="an instant messaging app for Windows Phone." />
+        <ProjectItem name="Lucky Challenge" url="https://felipemfp.github.com/lucky-challenge" description="a JavaScript game just for fun." />
+        <ProjectItem name="iReport" url="https://github.com/felipemfp/iReport" description="a .NET system for school/college management that includes courses, subjects and report cards." />
+        <ProjectItem name="Sales" url="https://github.com/felipemfp/sales" description="a .NET system for store management." />
+      </ul>
+      <p>Check more in my <a href="https://github.com/felipemfp">GitHub</a> profile.</p>
+    </section>
+
+    <section>
+      <h3>Talks and Workshops</h3>
+      <ul>
+        <li>GDG Natal - Introduction to React-Native (coming)</li>
+        <li>WTADS2017 - <a href="https://github.com/cades-ifrn/minicurso-react-native-wtads">Introduction to React-Native</a></li>
+        <li>Python Day Natal 2017 - <a href="https://speakerdeck.com/felipemfp/explorando-dados-com-pandas">Data Exploration with Pandas</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Activities</h3>
+      <ul>
+        <li>Co-founder of <a href="https://github.com/cades-ifrn">CADES</a></li>
+        <li>Organization Committee Member at the <a href="http://fr-br-school.ifrn.edu.br/">2nd Brazilian-French School of Big Data and Smart Cities</a></li>
+      </ul>
+    </section>
+
+    <section style={{paddingTop: '3rem', textAlign: 'center'}}>
+      <p>
+        Made with <Heart color="crimson" /> by <strong>Felipe Pontes</strong>
+        <br/>
+        <small>
+          See something wrong? Report here as an <a href="https://github.com/felipemfp/felipemfp.github.io/issues/new">issue</a>.
+        </small>
+      </p>
+    </section>
+  </div>
+)
+
+export default IndexPage
