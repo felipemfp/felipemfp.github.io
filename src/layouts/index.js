@@ -2,15 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import Header from '../components/Header'
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
       title="Felipe Pontes"
       meta={[
-        { name: 'description', content: 'Felipe Pontes is a research and software engineer.' },
-        { name: 'keywords', content: 'software engineer, developer' },
+        { name: 'description', content: 'Felipe Pontes is a researcher and software developer.' },
+        { name: 'keywords', content: 'felipe pontes, software developer, researcher' },
       ]}
     />
     <div
