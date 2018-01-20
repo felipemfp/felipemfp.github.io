@@ -11,6 +11,19 @@ const ProjectItem = ({name, url, description}) => (
   </li>
 )
 
+const TalkItem = ({event, title, url}) => (
+  <li>
+    <li>{event}{' - '}
+      { url 
+        ? <a href={url}>{title}</a>
+        : title
+      }
+    </li>
+  </li>
+)
+
+const WorkshopItem = TalkItem
+
 const IndexPage = () => (
   <div>
     <section>
@@ -29,7 +42,7 @@ const IndexPage = () => (
     <section>
       <h3>Projects</h3>
       <ul>
-        <ProjectItem name="GeoGuide" url="https://geoguideproject.github.io" description="a web-based environment for analysis, cleaning and visualization of large amounts of spatio-temporal data" />
+        <ProjectItem name="GeoGuide" url="https://geoguideproject.github.io" description="a web-based environment for analysis, cleaning and visualization of large amounts of spatio-temporal data." />
         <ProjectItem name="SIAC" url="https://projeto-siac.github.io" description="a project for allow students take self assessment test from anywhere." />
         <ProjectItem name="Dicio" url="https://felipemfp.github.com/dicio" description="an unofficial API to get data from Dicio.com.br." />
         <ProjectItem name="passando-na-tv" url="https://github.com/felipemfp/passando-na-tv" description="a CLI for Brazilian TV broadcasters." />
@@ -58,9 +71,9 @@ const IndexPage = () => (
     <section>
       <h3>Talks and Workshops</h3>
       <ul>
-        <li>GDG Natal - Introduction to React-Native (coming)</li>
-        <li>WTADS2017 - <a href="https://github.com/cades-ifrn/minicurso-react-native-wtads">Introduction to React-Native</a></li>
-        <li>Python Day Natal 2017 - <a href="https://speakerdeck.com/felipemfp/explorando-dados-com-pandas">Data Exploration with Pandas</a></li>
+        <WorkshopItem event="GDG Natal" title="Introduction to React-Native (coming)" />
+        <WorkshopItem event="WTADS2017" title="Introduction to React-Native" url="https://github.com/cades-ifrn/minicurso-react-native-wtads" />
+        <TalkItem event="Python Day Natal 2017" title="Data Exploration with Pandas" url="https://speakerdeck.com/felipemfp/explorando-dados-com-pandas" />
       </ul>
     </section>
 
@@ -77,7 +90,7 @@ const IndexPage = () => (
         Made with <Heart color="crimson" /> by <strong>Felipe Pontes</strong>
         <br/>
         <small>
-          See something wrong? Report here as an <a href="https://github.com/felipemfp/felipemfp.github.io/issues/new">issue</a>.
+          See something wrong? Report <a href="https://github.com/felipemfp/felipemfp.github.io/issues/new">here</a>.
         </small>
       </p>
     </section>
