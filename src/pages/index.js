@@ -12,13 +12,11 @@ const ProjectItem = ({name, url, description}) => (
 )
 
 const TalkItem = ({event, title, url}) => (
-  <li>
-    <li>{event}{' - '}
+  <li>{event}{' - '}
       { url 
         ? <a href={url}>{title}</a>
         : title
       }
-    </li>
   </li>
 )
 
