@@ -2,8 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import './index.css'
-import Heart from 'react-icons/lib/fa/heart';
 
+import { Emoji } from 'emoji-mart'
 
 const ProjectItem = ({name, url, description}) => (
   <li>
@@ -26,7 +26,7 @@ const IndexPage = () => (
   <div>
     <section>
       <h1>
-        Hi, I'm Felipe Pontes
+        Hi, I'm Felipe Pontes <Emoji emoji="man-raising-hand" skin="2" set="twitter" size={48} /> 
       </h1>
       <p>
         A passionate <strong>software developer</strong> who loves to learn and build
@@ -38,7 +38,7 @@ const IndexPage = () => (
     </section>
 
     <section>
-      <h3>Projects</h3>
+      <h3><Emoji emoji="male-technologist" skin="2" set="twitter" size={24} /> Projects</h3>
       <ul>
         <ProjectItem name="GeoGuide" url="https://geoguideproject.github.io" description="a web-based environment for analysis, cleaning and visualization of large amounts of spatio-temporal data." />
         <ProjectItem name="SIAC" url="https://projeto-siac.github.io" description="a project for allow students take self assessment test from anywhere." />
@@ -63,20 +63,24 @@ const IndexPage = () => (
         <ProjectItem name="iReport" url="https://github.com/felipemfp/iReport" description="a .NET system for school/college management that includes courses, subjects and report cards." />
         <ProjectItem name="Sales" url="https://github.com/felipemfp/sales" description="a .NET system for store management." />
       </ul>
-      <p>Check more in my <a href="https://github.com/felipemfp">GitHub</a> profile.</p>
+      <p>Check out more on my <a href="https://github.com/felipemfp">GitHub</a> profile.</p>
     </section>
 
     <section>
-      <h3>Talks and Workshops</h3>
+      <h3><Emoji emoji="studio_microphone" set="twitter" size={24} /> Talks and Workshops</h3>
+      <h4>2018</h4>
       <ul>
-        <WorkshopItem event="GDG Natal" title="Introduction to React-Native (coming)" />
-        <WorkshopItem event="WTADS2017" title="Introduction to React-Native" url="https://github.com/cades-ifrn/minicurso-react-native-wtads" />
+        <WorkshopItem event="GDG Natal Meeting #12" title="React-Native for Beginners" url="https://github.com/cades-ifrn/minicurso-react-native-gdg-natal" />
+      </ul>
+      <h4>2017</h4>
+      <ul>
+        <WorkshopItem event="VII WTADS 2017" title="Introduction to React-Native" url="https://github.com/cades-ifrn/minicurso-react-native-wtads" />
         <TalkItem event="Python Day Natal 2017" title="Data Exploration with Pandas" url="https://speakerdeck.com/felipemfp/explorando-dados-com-pandas" />
       </ul>
     </section>
 
     <section>
-      <h3>Activities</h3>
+      <h3><Emoji emoji="rocket" set="twitter" size={24} /> Activities</h3>
       <ul>
         <li>Co-founder of <a href="https://github.com/cades-ifrn">CADES</a></li>
         <li>Organization Committee Member at the <a href="http://fr-br-school.ifrn.edu.br/">2nd Brazilian-French School of Big Data and Smart Cities</a></li>
@@ -85,7 +89,7 @@ const IndexPage = () => (
 
     <section style={{paddingTop: '3rem', textAlign: 'center'}}>
       <p>
-        Made with <Heart color="crimson" /> by <strong>Felipe Pontes</strong>
+        Made with <Emoji emoji="heart" set="twitter" size={20} /> by <strong>Felipe Pontes</strong>
         <br/>
         <small>
           See something wrong? Report <a href="https://github.com/felipemfp/felipemfp.github.io/issues/new">here</a>.
