@@ -83,7 +83,7 @@ const IndexPage = () => (
     <section>
       <h3><Emoji emoji="rocket" set="twitter" size={24} /> Activities</h3>
       <ul>
-        <li>Co-founder of <a href="https://github.com/cades-ifrn">CADES</a></li>
+        <li>Co-founder of <a href="https://cades.natal.br">CADES</a></li>
         <li>Organization Committee Member at the <a href="http://fr-br-school.ifrn.edu.br/">2nd Brazilian-French School of Big Data and Smart Cities</a></li>
       </ul>
     </section>
