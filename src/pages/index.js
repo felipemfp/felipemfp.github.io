@@ -71,6 +71,7 @@ const IndexPage = () => (
       <h3><Emoji emoji="studio_microphone" set="twitter" size={24} /> Talks and Workshops</h3>
       <h4>2018</h4>
       <ul>
+        <TalkItem event="4º Meetup GruPy-RN" title="Docker for Pythonistas" url="https://slides.com/felipemfp/docker-para-pythonistas" />
         <WorkshopItem event="GDG Natal Meeting #12" title="React-Native for Beginners" url="https://github.com/cades-ifrn/minicurso-react-native-gdg-natal" />
       </ul>
       <h4>2017</h4>
