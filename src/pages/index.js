@@ -46,6 +46,7 @@ const IndexPage = () => (
         <ProjectItem name="passando-na-tv" url="https://github.com/felipemfp/passando-na-tv" description="a CLI for Brazilian TV broadcasters." />
         <ProjectItem name="IFRN Messenger" url="https://github.com/felipemfp/ifrn-messenger" description="a messaging app to connect students at IFRN." />
         <ProjectItem name="Alpaca" url="https://github.com/felipemfp/alpaca" description="a microservice for mocking API requests." />
+        <ProjectItem name="sinonimos" url="https://github.com/felipemfp/sinonimos-cli" description="a CLI for finding synonyms" />
       </ul>
     </section>
 
