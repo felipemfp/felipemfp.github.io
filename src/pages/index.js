@@ -1,9 +1,9 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 import './index.css'
 
 import { Emoji } from 'emoji-mart'
+import TemplateWrapper from '../components/layout';
 
 const ProjectItem = ({name, url, description}) => (
   <li>
@@ -23,7 +23,7 @@ const TalkItem = ({event, title, url}) => (
 const WorkshopItem = TalkItem
 
 const IndexPage = () => (
-  <div>
+  <TemplateWrapper>
     <section>
       <h1>
         Hi, I'm Felipe Pontes <Emoji emoji="man-raising-hand" skin="2" set="twitter" size={48} /> 
@@ -99,7 +99,7 @@ const IndexPage = () => (
         </small>
       </p>
     </section>
-  </div>
+  </TemplateWrapper>
 )
 
 export default IndexPage
