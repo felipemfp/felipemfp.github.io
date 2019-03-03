@@ -19,7 +19,7 @@ const TemplateWrapper = ({ children }) => (
         padding: '3rem 1.0875rem 1.45rem',
       }}
     >
-      {children()}
+      {children}
     </div>
   </div>
 )
