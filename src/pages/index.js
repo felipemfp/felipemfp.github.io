@@ -33,7 +33,7 @@ const IndexPage = () => (
         solutions for real problems.
       </p>
       <p>
-        You can reach me at <a href="https://twitter.com/felipemfp">Twitter</a>, <a href="https://github.com/felipemfp">Github</a>, <a href="https://www.linkedin.com/in/felipemfp/en">LinkedIn</a> or <a href="mailto:felipemfpontes@gmail.com">email</a>.
+        You can reach me at <a href="https://twitter.com/felipemfp">Twitter</a>, <a href="https://github.com/felipemfp">Github</a>, <a href="https://www.linkedin.com/in/felipemfp">LinkedIn</a> or <a href="mailto:felipemfpontes@gmail.com">email</a>.
       </p>      
     </section>
 
