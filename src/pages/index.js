@@ -65,7 +65,8 @@ const IndexPage = () => (
         <ProjectItem name="iReport" url="https://github.com/felipemfp/iReport" description="a .NET system for school/college management that includes courses, subjects and report cards." />
         <ProjectItem name="Sales" url="https://github.com/felipemfp/sales" description="a .NET system for store management." />
       </ul>
-      <p>Check out more on my <a href="https://github.com/felipemfp">GitHub</a> profile.</p>
+      <p>Check out more on my <a href="https://github.com/felipemfp">GitHub</a> profile (for work-related projects, check out my <a href="https://www.notion.so/felipemfp/Felipe-Pontes-Portfolio-028e0b174b424eb78fa052e0595dcb4f">Notion portfolio</a>).</p>
+      
     </section>
 
     <section>
