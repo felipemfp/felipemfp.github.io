@@ -29,17 +29,19 @@ const IndexPage = () => (
         Hi, I'm Felipe Pontes <Emoji emoji="man-raising-hand" skin="2" set="twitter" size={48} /> 
       </h1>
       <p>
-        A passionate <strong>software developer</strong> who loves to learn and build
+        A passionate <strong>software engineer</strong> who loves to learn and build
         solutions for real problems.
       </p>
       <p>
-        You can reach me at <a href="https://twitter.com/felipemfp">Twitter</a>, <a href="https://github.com/felipemfp">Github</a>, <a href="https://www.linkedin.com/in/felipemfp">LinkedIn</a> or <a href="mailto:felipemfpontes@gmail.com">email</a>.
+        You can reach me at <a href="https://twitter.com/felipemfp">Twitter</a>, <a href="https://github.com/felipemfp">Github</a>, <a href="https://www.linkedin.com/in/felipemfp">LinkedIn</a> or <a href="mailto:felipe@felipemfp.dev">email</a>.
       </p>      
     </section>
 
     <section>
       <h3><Emoji emoji="male-technologist" skin="2" set="twitter" size={24} /> Projects</h3>
       <ul>
+        <ProjectItem name="COVID-19 Tools" url="https://covid19.ufrgs.dev/tools" description="a set of configurable tools around COVID-19 data including a chart editor, similarity explorer and predictions." />
+        <ProjectItem name="COVID-19 Data" url="https://covid19.ufrgs.dev/data" description="an automated dataset of COVID-19 stats from several places in the world." />
         <ProjectItem name="GeoGuide" url="https://geoguideproject.github.io" description="a web-based environment for analysis, cleaning and visualization of large amounts of spatio-temporal data." />
         <ProjectItem name="SIAC" url="https://projeto-siac.github.io" description="a project for allow students take self assessment test from anywhere." />
         <ProjectItem name="Dicio" url="https://felipemfp.github.com/dicio" description="an unofficial API to get data from Dicio.com.br." />
@@ -65,7 +67,7 @@ const IndexPage = () => (
         <ProjectItem name="iReport" url="https://github.com/felipemfp/iReport" description="a .NET system for school/college management that includes courses, subjects and report cards." />
         <ProjectItem name="Sales" url="https://github.com/felipemfp/sales" description="a .NET system for store management." />
       </ul>
-      <p>Check out more on my <a href="https://github.com/felipemfp">GitHub</a> profile (for work-related projects, check out my <a href="https://www.notion.so/felipemfp/Felipe-Pontes-Portfolio-028e0b174b424eb78fa052e0595dcb4f">Notion portfolio</a>).</p>
+      <p>Check out more on my <a href="https://github.com/felipemfp">GitHub</a> profile.</p>
       
     </section>
 
@@ -86,7 +88,7 @@ const IndexPage = () => (
     <section>
       <h3><Emoji emoji="rocket" set="twitter" size={24} /> Activities</h3>
       <ul>
-        <li>Co-founder of <a href="https://cades.natal.br">CADES</a></li>
+        <li>Co-founder of <a href="https://cades-ifrn.github.io">CADES</a></li>
         <li>Organization Committee Member at the <a href="http://fr-br-school.ifrn.edu.br/">2nd Brazilian-French School of Big Data and Smart Cities</a></li>
       </ul>
     </section>
