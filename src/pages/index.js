@@ -40,6 +40,7 @@ const IndexPage = () => (
     <section>
       <h3><Emoji emoji="male-technologist" skin="2" set="twitter" size={24} /> Projects</h3>
       <ul>
+        <ProjectItem name="futrivia" url="https://futrivia.felipemfp.dev/" description="a daily Brazilian football quiz: 7 questions, 25 seconds each, rarer players score more." />
         <ProjectItem name="ondepassa" url="https://ondepassa.felipemfp.dev/" description="where to watch your team's next match." />
         <ProjectItem name="COVID-19 Tools" url="https://covid19.felipemfp.dev/" description="a set of configurable tools around COVID-19 data including a chart editor, similarity explorer and predictions." />
         <ProjectItem name="COVID-19 Data" url="https://inf-covid19.github.io/data/" description="an automated dataset of COVID-19 stats from several places in the world." />
